@@ -1,0 +1,31 @@
+name: Bug report
+description: A reproducible behavior problem
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Security issue? Use Security → Report a vulnerability instead."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Minimal reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Versions and environment
+      description: Repository commit, Hyprland build, GPU/driver, shell, nested or live DRM session.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs and evidence
+      description: Remove tokens, private window titles and personal data. Include recovery steps if input or compositor fails.

@@ -1,0 +1,21 @@
+name: Proposal
+description: A concrete capability, world, or contract change
+title: "[Proposal]: "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: User need and intended behavior
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Owning repository and affected RFCs
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Proposed design and acceptance evidence
+      description: Include compatibility, failure recovery, capability and asset provenance implications where relevant.
