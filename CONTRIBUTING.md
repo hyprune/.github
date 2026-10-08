@@ -12,7 +12,7 @@ Hyprune is early, building in the open. Start with the [concepts](https://hyprun
 
 ## Rights
 
-Contribute only work you have the right to license under the repository's terms. Code is MIT. World content defaults to CC-BY-4.0; official dependencies may be CC0 or CC-BY-4.0 with provenance. Keep source, author, license and modifications alongside every asset. No third-party game assets or derivatives, including fixture images or screenshots. There is no CLA at this stage.
+Contribute only work you have the right to license under the repository's terms. Code is MIT. World content defaults to CC-BY-4.0; official dependencies may be CC0 or CC-BY-4.0 with provenance. Keep source, author, license and modifications alongside every asset. There is no CLA at this stage.
 
 ## Review and community
 
