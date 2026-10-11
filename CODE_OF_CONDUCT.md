@@ -36,7 +36,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at **conduct@hyprune.com (placeholder; to be set up by the owner, not yet monitored)**. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at **conduct@hyprune.com**. All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
@@ -84,6 +84,6 @@ For answers to common questions about this code of conduct, see the FAQ at [http
 
 ## Hyprune setup status
 
-The owner must provision and test `conduct@hyprune.com` and appoint a conduct responder before this reporting route is considered active. Do not send sensitive reports to the placeholder or post them in public issues. No personal address is published.
+Reports to conduct@hyprune.com reach the project steward. No personal address is published.
 
 The Contributor Covenant 2.1 text is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/); repository MIT licensing does not override it. Hyprune modifies only the reporting route and this setup note.

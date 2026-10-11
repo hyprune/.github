@@ -2,22 +2,25 @@
 
 ### What if the computer itself were an explorable world?
 
-Hyprune is an explorable, world-driven desktop environment for **Hyprland**, designed to grow into a framework and ecosystem. Put real applications in places you can inhabit. Build new worlds, screen types, widgets, movement modes, integrations—or your own shell.
+Hyprune is an explorable, world-driven desktop environment for **Hyprland**. Your workspaces become places: walk between workspace homes, keep live application windows on the walls, carry a window to the next area, and get your ordinary desktop back with one key. It is built to grow into a framework: new worlds, screen types, widgets, movement modes, integrations, or your own shell.
 
-**Early, building in the open.** We are establishing the architecture and first runtime. The RFCs describe the intended system, not a finished product.
+**Early preview, building in the open.** Hyprune targets Hyprland 0.56.2. Core, shell and SDK speak IPC 0.19, and the official world Lumen Reach is at 0.9.2. Every repository below is public.
 
-[Explore the project](https://hyprune.com) · [Read the architecture](https://hyprune.com/architecture/) · [Roadmap](https://hyprune.com/roadmap/) · [Contribute](https://github.com/hyprune/.github/blob/main/CONTRIBUTING.md)
+[hyprune.com](https://hyprune.com) · [Try Hyprune](https://hyprune.com/first-session/) · [Progress](https://hyprune.com/progress/) · [Roadmap](https://hyprune.com/roadmap/) · [Schema reference](https://hyprune.com/reference/schema/) · [Contribute](https://github.com/hyprune/.github/blob/main/CONTRIBUTING.md)
 
-| Repository | Purpose |
+| Repository | What it is |
 | --- | --- |
-| [core](https://github.com/hyprune/core) | Small Hyprland integration, helper daemon and 3D runtime. |
-| [shell](https://github.com/hyprune/shell) | Reference Quickshell UI and overlays; replaceable through an open contract. |
-| [worlds](https://github.com/hyprune/worlds) | Official original environments, source scenes and provenance. |
-| [sdk](https://github.com/hyprune/sdk) | Extension APIs, client tooling and world authoring tools. |
-| [schema](https://github.com/hyprune/schema) | Versioned world, IPC, extension and screen descriptors. |
-| [docs](https://github.com/hyprune/docs) | The website, foundational RFCs, concepts and guides. |
-| [.github](https://github.com/hyprune/.github) | Community guidelines and organization defaults. |
+| [hyprune](https://github.com/hyprune/hyprune) | The front door: install, starter kits, Nix flake, NixOS and Home Manager modules, Arch installer. **Start here.** |
+| [core](https://github.com/hyprune/core) | The Hyprland plugin, the `hypruned` daemon and the 3D world runtime. |
+| [shell](https://github.com/hyprune/shell) | The reference Quickshell UI: HUD, Director, settings and overlays, replaceable through the IPC contract. |
+| [worlds](https://github.com/hyprune/worlds) | Official original worlds (Lumen Reach, Switchyard), their sources, build pipeline and provenance. |
+| [sdk](https://github.com/hyprune/sdk) | TypeScript IPC client, the `hyprune` CLI for world and extension authors, and a mock daemon. |
+| [schema](https://github.com/hyprune/schema) | Versioned JSON Schemas for world packages, IPC and manifests, with a validator. |
+| [docs](https://github.com/hyprune/docs) | The hyprune.com site: guides, concepts, RFCs and the schema reference. |
+| [.github](https://github.com/hyprune/.github) | Organisation profile and community defaults. |
 
-Small boundaries make independent contributions possible. World art stays separate from the runtime. UI stays separate from compositor authority. Third-party extensions run outside the compositor.
+Small boundaries make independent contributions possible. World art stays separate from the runtime, the UI stays separate from compositor authority, and extensions run outside the compositor.
 
-Code: MIT. Original world content: CC-BY-4.0, with documented CC0/CC-BY dependencies. No ripped game assets or derivatives. Hypr3D is a historical footnote; Hyprune starts fresh.
+**Contributing:** read [CONTRIBUTING.md](https://github.com/hyprune/.github/blob/main/CONTRIBUTING.md), then open an issue or pull request in the repository that owns the change. **Security:** report privately through GitHub's *Report a vulnerability* button ([SECURITY.md](https://github.com/hyprune/.github/blob/main/SECURITY.md)). **Conduct:** [Code of Conduct](https://github.com/hyprune/.github/blob/main/CODE_OF_CONDUCT.md), contact conduct@hyprune.com.
+
+Code: MIT. Original world content: CC-BY-4.0, with documented CC0/CC-BY dependencies. No ripped game assets or derivatives.
