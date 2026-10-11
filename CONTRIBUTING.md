@@ -9,6 +9,7 @@ Hyprune is early, building in the open. Start with the [concepts](https://hyprun
 3. Keep PRs focused, explain the result, and provide relevant test evidence. State the exact Hyprland build for runtime work and distinguish nested tests from real DRM/hardware-cursor tests.
 4. Run `npm ci && npm run build && npm run check:links` for docs or `npm ci && npm test` for schemas. Other repos document checks as implementations land.
 5. Record compatibility, migration and user-visible changes. Never push generated build output or local secrets.
+6. Keep machine-specific values (review directories, build hosts) out of repositories: tools read them from the environment or an optional `~/.config/hyprune/dev.env`. See [Contributing](https://hyprune.com/contributing/).
 
 ## Rights
 
